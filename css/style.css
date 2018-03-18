@@ -89,7 +89,7 @@ div.column{
   float: left;
   width: 30%;
   padding: 5px;
-  height: 300px;
+  height: auto;
   background-color: white;
   text-align: center;
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15),
@@ -119,4 +119,8 @@ div.project{
   border-color: black;
   background-color: #ccccb3;
   border-radius: 6px;
+  padding: 60px 0 0 150px;
+}
+#port1{
+  font-size: 18px;
 }
