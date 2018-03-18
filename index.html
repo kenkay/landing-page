@@ -1,37 +1,51 @@
 <html>
-  <head>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="images/kay.jpg" />
-    <meta name="author" content="Kay">
-    <title> Portfolio </title>
-  </head>
-  <body class="whole">
-      <ul>
-       <li><a href="">Top</a></li>
-       <li><a href="">Knowledge</a></li>
-       <li><a href="">Resume</a></li>
-       <li><a href="">Portfolio</a></li>
-      </ul>
-      <div class="image">
-        <img src="images/kay.jpg" width="400" height="400">
-        <div class="intro">
-          <header>
-            <h1> Hi.I'm <strong>Kennedy Kalooh. </strong></h1>
-          </header>
-          <p> I'm a <strong> <a href="https://github.com/kenkay/" target="_blank"> web developer </a> </strong>
-          <p><a href="#work" class="button big scrolly"> Let's get to know me </a></p>
+
+<head>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="images/kay.jpg" />
+  <meta name="author" content="Kay">
+  <title> Portfolio </title>
+</head>
+
+<body class="whole">
+  <ul>
+    <li><a href="">Top</a></li>
+    <li><a href="#work">Knowledge</a></li>
+    <li><a href="">Resume</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+  </ul>
+  <div class="image">
+    <img id="profilepic" src="images/kay.jpg" width="400" height="400">
+    <div class="intro">
+      <header>
+        <h1> Hi.I'm <strong>Kennedy Kalooh. </strong></h1>
+      </header>
+      <p> I'm a <strong> <a href="https://github.com/kenkay/" target="_blank"> web developer </a> </strong>
+        <p><a href="#work" class="button big scrolly"> Let's get to know me </a></p>
+    </div>
+  </div>
+  <div class="work section">
+    <article id="work">
+      <header>
+        <h2>Here's what I know</h2>
+      </header>
+      <p id="subheader"> As a Front end developer, I work day-to-day with HTML and CSS </p>
+      <div class="container">
+        <div class="column">
+          <img src="images/computer.png" height="100" width="100">
+          <h3> Front End </h3>
+          <p id="skillcontent"> My Main skills are HTML,CSS and a tiny little bit of Javascript </p>
         </div>
       </div>
-        <div class="work section">
-          <article id="work">
-            <header>
-              <h2>Here's what I know</h2>
-            </header>
-            <div class="container">
-              <div class="column">
-              <p> Front End </p>
-            </div>
-            <div class="column">
-              <p> other stuff </p>
-            </div>
-          </div>
+      <footer>
+        <p id="foot"> Why not check out some of the projects I have been working on? </p>
+        <p id="foot"> <a href="#portfolio" class="button big scrolly"> See some of my recent work </a> </p>
+      </footer>
+    </article>
+  </div>
+  <div class="project">
+    <article id="portfolio">
+      <div class="column">
+      </div>
+    </article>
+  <div/>
