@@ -20,14 +20,14 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: lightblue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color:lightgrey;
+    background-color:black;
 }
 div.head{
   background-color: white;
@@ -65,7 +65,7 @@ h1 strong{
   color: #293d3d;
 }
 a:link{
-  color: black;
+  color: white;
 }
 .button.big{
   font-size: 1.0em;
