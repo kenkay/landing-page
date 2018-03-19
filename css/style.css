@@ -132,3 +132,11 @@ div.project{
   .menu, .main, .right {
     width:100%;
   }
+div.end{
+  height: auto;
+  width: 100%;
+  background-color: white;
+  font-size: 1em;
+  line-height: 1em;
+  text-align: center;
+}
