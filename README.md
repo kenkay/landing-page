@@ -3,7 +3,7 @@
 Website for my programming portfolio
 
 ## Link to Website
-https://kenkay/github.io/landing-page
+https://kenkay.github.io/landing-page
 
 ## Getting Started
 
