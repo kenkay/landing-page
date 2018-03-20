@@ -2,6 +2,9 @@
 
 Website for my programming portfolio
 
+## Link to Website
+https://kenkay/github.io/landing-page
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -28,4 +31,3 @@ This project is licensed under Moringa School Limited
 
 * Hat tip to anyone who's code was used
 * Inspiration
- 
